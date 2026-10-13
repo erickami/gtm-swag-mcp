@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "gtm-swag": {
+      "type": "http",
+      "url": "https://gtmswag.com/mcp"
+    }
+  }
+}

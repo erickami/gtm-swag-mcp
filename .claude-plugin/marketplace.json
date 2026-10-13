@@ -1,0 +1,15 @@
+{
+  "name": "gtm-swag",
+  "description": "GTM Swag plugins for Claude: personalized, thoughtful gifts that help sales, marketing and customer success teams get meetings.",
+  "owner": {
+    "name": "GTM Swag",
+    "url": "https://gtmswag.com"
+  },
+  "plugins": [
+    {
+      "name": "gtm-swag",
+      "source": "./",
+      "description": "Get meetings with personalized, thoughtful gifts from GTM Swag: find a gift for each prospect, turn signals like a new role, a funding round or an event into gifts queued for your team to approve, and get private gift links, CSV exports and delivery status."
+    }
+  ]
+}

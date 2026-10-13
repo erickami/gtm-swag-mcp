@@ -1,0 +1,27 @@
+{
+  "name": "gtm-swag",
+  "displayName": "GTM Swag",
+  "version": "1.1.0",
+  "description": "Get meetings with personalized, thoughtful gifts from GTM Swag: find a gift for each prospect, turn signals like a new role, a funding round or an event into gifts queued for your team to approve, and get private gift links, CSV exports and delivery status.",
+  "author": {
+    "name": "GTM Swag",
+    "url": "https://gtmswag.com"
+  },
+  "homepage": "https://gtmswag.com",
+  "repository": "https://github.com/erickami/gtm-swag-mcp",
+  "license": "MIT",
+  "keywords": [
+    "gifting",
+    "sales",
+    "b2b",
+    "account-based-marketing",
+    "direct-mail",
+    "customer-appreciation",
+    "gtm"
+  ],
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://gtmswag.com/guides/connect",
+  "supportUrl": "https://gtmswag.com/support",
+  "privacyPolicyUrl": "https://gtmswag.com/privacy",
+  "termsOfServiceUrl": "https://gtmswag.com/terms"
+}

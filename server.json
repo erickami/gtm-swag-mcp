@@ -1,0 +1,54 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.gtmswag/gtm-swag",
+  "title": "GTM Swag",
+  "description": "Personalized, thoughtful gifts that help GTM teams get meetings. Agents prepare; people approve.",
+  "version": "1.0.0",
+  "websiteUrl": "https://gtmswag.com",
+  "icons": [
+    {
+      "src": "https://gtmswag.com/brand/symbol.png",
+      "mimeType": "image/png"
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gtmswag.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional workspace key as \"Bearer YOUR_GTM_SWAG_KEY\". Leave it out to sign in with OAuth.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "summary": "GTM Swag helps go-to-market teams get meetings by sending personalized, thoughtful physical gifts to prospects and customers. Agents find a gift that fits each person and the moment (a new role, a webinar, a funding round, a closed deal), add people from Clay, HubSpot or any CRM trigger, and return private gift links for the team's own outreach. Only a signed-in person approves gifts, pays, adds funds or sets auto-approve limits; agents never do.",
+      "keywords": [
+        "gifting",
+        "personalized gifts",
+        "get meetings",
+        "outbound",
+        "pipeline",
+        "direct mail",
+        "corporate gifts",
+        "sales prospecting",
+        "account-based marketing",
+        "go-to-market",
+        "CRM",
+        "Clay",
+        "HubSpot"
+      ],
+      "categories": ["sales", "marketing", "gifting"],
+      "documentation": "https://gtmswag.com/agent-guide.md",
+      "support": "https://gtmswag.com/support",
+      "privacy": "https://gtmswag.com/privacy",
+      "terms": "https://gtmswag.com/terms",
+      "serverCard": "https://gtmswag.com/mcp/server-card"
+    }
+  }
+}
